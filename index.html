@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lazy image component</title>
+</head>
+<body>
+  <lazy-image width="800" height="533" alt="foo" src="img1.jpg"></lazy-image>
+  <lazy-image width="800" height="533" alt="foo" src="img2.jpg"></lazy-image>
+  <lazy-image width="800" height="533" alt="foo" src="img3.jpg"></lazy-image>
+  <lazy-image width="800" height="533" alt="foo" src="img4.jpg"></lazy-image>
+  <lazy-image width="800" height="533" alt="foo" src="img5.jpg"></lazy-image>
+  <lazy-image width="800" height="533" alt="foo" src="img6.jpg"></lazy-image>
+  <lazy-image width="800" height="533" alt="foo" src="img7.jpg"></lazy-image>
+  <lazy-image width="800" height="533" alt="foo" src="img8.jpg"></lazy-image>
+  <lazy-image width="800" height="533" alt="foo" src="img9.jpg"></lazy-image>
+
+
+  <script type="module" async>
+    import LazyImage from './lazy-image.js';
+    customElements.define('lazy-image', LazyImage);
+  </script>
+</body>
+</html>
